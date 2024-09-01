@@ -1,0 +1,22 @@
+/* styles/embla.css */
+.embla {
+    overflow: hidden;
+  }
+  
+  .embla__container {
+    display: flex;
+    /* width: 100px; */
+    gap: 1rem;
+  }
+  
+  .embla__slide {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    .embla__slide {
+      width: calc(100% / 4 - 1rem);
+    }
+  }
+  
